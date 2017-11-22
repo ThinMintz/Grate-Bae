@@ -10,3 +10,12 @@ inquirer.prompt([
     choices: ["POST AN ITEM", "BID ON AN ITEM"]
   },
 ]);
+
+/*--------Switch to run different calls depending on user choice--------*/
+switch(command){
+	case "POST AN ITEM":
+		postItem();
+		break;
+	case "BID ON AN ITEM":
+		bidItem();
+		break;

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ThinMintz/Grate-Bae/issues"
   },
-  "homepage": "https://github.com/ThinMintz/Grate-Bae#readme"
+  "homepage": "https://github.com/ThinMintz/Grate-Bae#readme",
+  "dependencies": {
+    "inquirer": "^4.0.0",
+    "mysql": "^2.15.0"
+  }
 }
